@@ -141,4 +141,18 @@ describe('average', function(){
     });  
     });  
 });
-                    
+describe('product',function(){
+    it('should return 6 when multiplying 2 and 3', function(){
+         assert.equal(functions.product(2, 3), 6);
+    });
+
+    
+    it('should return -10 when multiplying 5 and -2', function(){
+          assert.equal(functions.product(5, -2), -10);
+     });
+
+        
+    it('should return 10.1 when multiplying 1.1 and 9', function(){
+              assert.equal(functions.product(1.1, 9), 9.9);
+    });
+});

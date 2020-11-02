@@ -156,3 +156,36 @@ describe('product',function(){
               assert.equal(functions.product(1.1, 9), 9.9);
     });
 });
+describe('largest', function(){
+    it('should return 8 when provided array is [2, 6, 8]', function(){
+        let arr = [2, 6, 8];
+  assert.equal(functions.largest(arr), 8);
+    });
+  
+    it('should return 5 when provided array is [5, 0, -5]', function(){
+      let arr = [5, 0, -5];
+  assert.equal(functions.largest(arr), 5);
+    });
+  
+    it('should return null when provided array is []', function(){
+      let arr = [];
+       assert.isNull(functions.largest(arr));
+    });  
+});
+
+describe('smallest', function(){
+    it('should return 2 when provided array is [2, 6, 8]', function(){
+      let arr = [2, 6, 8];
+        assert.equal(functions.smallest(arr), 2);
+    });
+  
+    it('should return -5 when provided array is [5, 0, -5]', function(){
+      let arr = [5, 0, -5];
+       assert.equal(functions.smallest(arr), -5);
+    });
+  
+    it('should return null when provided array is []', function(){
+      let arr = [];
+        assert.isNull(functions.smallest(arr));
+    });  
+}); 

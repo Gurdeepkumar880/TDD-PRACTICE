@@ -18,5 +18,7 @@ if the command `npm test` does not work,you may need tom install mocha globally 
 #what we learned working on this project
 
 -I learned how to use chai's assertion syntax for unit tests.
+
 -I learned how chai and java works. 
+
 -I learned how to learn from videos
